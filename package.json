@@ -1,0 +1,46 @@
+{
+    "name": "fitgame",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "prisma:generate": "prisma generate",
+      "prisma:migrate": "prisma migrate deploy",
+      "seed": "ts-node seed.ts"
+    },
+    "dependencies": {
+      "@prisma/client": "^5.3.1",
+      "@solana/spl-token": "^0.4.8",
+      "@solana/wallet-adapter-base": "^0.9.23",
+      "@solana/wallet-adapter-phantom": "^0.9.24",
+      "@solana/wallet-adapter-react": "^0.15.35",
+      "@solana/wallet-adapter-react-ui": "^0.9.35",
+      "@solana/wallet-adapter-solflare": "^0.9.27",
+      "@solana/wallet-adapter-torus": "^0.11.29",
+      "@solana/web3.js": "^1.95.3",
+      "@tensorflow-models/pose-detection": "^2.1.0",
+      "@tensorflow/tfjs": "^4.21.0",
+      "@tensorflow/tfjs-backend-webgl": "^4.21.0",
+      "bs58": "^6.0.0",
+      "framer-motion": "^11.3.31",
+      "next": "14.2.8",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-toastify": "^10.0.5",
+      "tweetnacl": "^2.0.0",
+      "zod": "^3.23.8"
+    },
+    "devDependencies": {
+      "@types/bs58": "^4.0.4",
+      "@types/node": "^22.5.5",
+      "@types/react": "^18.3.5",
+      "autoprefixer": "^10.4.20",
+      "postcss": "^8.4.45",
+      "prisma": "^5.3.1",
+      "tailwindcss": "^3.4.10",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.6.2"
+    }
+  }
